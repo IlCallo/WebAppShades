@@ -1,0 +1,56 @@
+{
+  "mqttTopic": "home/+/tapparelle/#",
+  "mqttUrl": "mqtt://cherilee",
+  "tapparelle": [
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/diamond-tiara/fin_cameraRL_E/",
+      "name": "Finestra Est Camera Riccardo",
+      "topic": "home/diamond-tiara/tapparelle/fin_cameraRL_E"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/diamond-tiara/fin_cameraRL_W/",
+      "name": "Finestra Ovest Camera Riccardo",
+      "topic": "home/diamond-tiara/tapparelle/fin_cameraRL_W"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/diamond-tiara/fin_cameraRL_Terrazzo/",
+      "name": "Porta Terrazzo Camera Riccardo",
+      "topic": "home/diamond-tiara/tapparelle/fin_cameraRL_Terrazzo"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/diamond-tiara/fin_studioRL/",
+      "name": "Finestra Studio Riccardo",
+      "topic": "home/diamond-tiara/tapparelle/fin_studioRL"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/silver-spoon/fin_cameraL/",
+      "name": "Finestra Camera Luciana",
+      "topic": "home/silver-spoon/tapparelle/fin_cameraL"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/silver-spoon/fin_studioL/",
+      "name": "Finestra Studio Luciana",
+      "topic": "home/silver-spoon/tapparelle/fin_studioL"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/silver-spoon/fin_scala/",
+      "name": "Porta Terrazzo Scala",
+      "topic": "home/silver-spoon/tapparelle/fin_scala"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/snips/fin_sala_NE/",
+      "name": "Finestra Nord-Est Sala",
+      "topic": "home/snips/tapparelle/fin_sala_NE"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/snips/fin_sala_SE/",
+      "name": "Finestra Sud-Est Sala",
+      "topic": "home/snips/tapparelle/fin_sala_SE"
+    },
+    {
+      "url": "http://cherilee:8000/gateway/tapparelle/snips/fin_cucina/",
+      "name": "Finestra Cucina",
+      "topic": "home/snips/tapparelle/fin_cucina"
+    }
+  ]
+}
