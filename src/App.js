@@ -6,10 +6,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/Paper';
 import SwipeableViews from 'react-swipeable-views';
-import blue from '@material-ui/core/colors/blue';
-import yellow from '@material-ui/core/colors/yellow';
-import indigo from '@material-ui/core/colors/indigo';
-const a=blue
 
 class MyTabs extends React.Component {
     state = {
@@ -25,9 +21,8 @@ class MyTabs extends React.Component {
     };
 
     render() {
-        const finestreUrl="http://cherilee:8000/gateway/finestre_list/";
-        const temperatureUrl="http://cherilee:8000/gateway/temperature_list/";
-        console.log(a)
+        const finestreUrl="stubs/finestre_list.json";
+        const temperatureUrl="stubs/temperature_list.json";
         return (
             <div>
             <AppBar position="static" color="primary">
